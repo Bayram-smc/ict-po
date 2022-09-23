@@ -6,3 +6,11 @@ html, body {
 .image{
   width:400px;  
 }
+body{
+  background-color:#dedede;
+}
+h1{
+  color:#007dad
+}
+h2{color:#a34cf6}
+h3{color:#a34cf6}
