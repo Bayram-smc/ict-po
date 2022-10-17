@@ -39,15 +39,11 @@ body {
   margin-left: 105px;
   padding-left: 20px;
 }
-
 .image{
   width:350px;
  border-radius: 50%;
  max-width: 60%;
-  height: auto;
-}
-Body{background: lightgrey;}
-h3{background-color: #999999;}
+ height: auto}
 
 .page{
   display:flex;
