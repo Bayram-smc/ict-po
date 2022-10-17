@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.png" type="image/icon type">
 
 </head>
 
@@ -20,40 +21,57 @@
 
   <div class="content">
     <h3>Contact:</h3>
-    <fieldset>
-      <label class="invoerveld" for="fname">First name:</label><br>
-      <input class="invoerveld" type="text" id="fname" name="fname" placeholder="First name..." required=""> <br>
-      <label class="invoerveld" for="lname">Last name:</label><br>
-      <input class="invoerveld" type="text" id="lname" name="lname" placeholder="Last name..." required=""> <br>
-      <label class="invoerveld" for="email">E-mail:</label><br>
-      <input class="invoerveld" type="text" id="email" name="email" placeholder="E-mail..." required=""> <br>
-     <label class="invoerveld" for="phone">Phonenumber:</label>
-      
-      <input class="invoerveld" type="text" id="phone" name="phone" placeholder="Phonenumber..." required=""> <br>
+    <form>
+      <fieldset>
+        <label for="fname">First name:</label>
+        <br>
+        <input type="text" id="fname" name="fname" placeholder="First name..." required="">
+        <br>
+        <label for="lname">Last name:</label>
+        <br>
+        <input type="text" id="lname" name="lname" placeholder="Last name..." required="">
+        <br>
+        <label for="email">E-mail:</label>
+        <br>
+        <input type="text" id="email" name="email" placeholder="E-mail..." required="">
+        <br>
+        <label for="phone">Phonenumber:</label>
+        <br>
 
-      <label for="browser">Country:</label>
-      <input class="invoerveld" list="browsers" name="browser" id="browser" placeholder="Your country..." required="">
-      <br>
-      <input class="knop" type="submit" value="Submit">
+        <input type="text" id="phone" name="phone" placeholder="Phonenumber..." required="">
+        <br>
+        <label for="browser">Country:</label>
+        <br>
+        <input list=" browsers" name="browser" id="browser" placeholder="Your country..." required="">
+        <br>
 
-      <datalist id="browsers">
-        <option value="Nederland">
-        </option>
-        <option value="Amerika">
-        </option>
-        <option value="Portugal">
-        </option>
-        <option value="Duitsland">
-        </option>
-        <option value="Turkije">
-        </option>
-        <option value="Overige...">
-        </option>
-      </datalist>
-    </fieldset>
+        <input type="submit" value="Submit">
 
 
+        <datalist id="browsers">
+          <option value="Nederland">
+          </option>
+          <option value="Amerika">
+          </option>
+          <option value="Portugal">
+          </option>
+          <option value="Duitsland">
+          </option>
+          <option value="Turkije">
+          </option>
+          <option value="Overige...">
+          </option>
+        </datalist>
+      </fieldset>
+    </form>
 
+    <h3>Vragen:</h3>
+    <ol>
+      <li>Email-adres:Ict-in-het-onderwijs@hotmail.com</li>
+      <li>Tel-nummer:(070)-1234567</li>
+      <li>Locatie: Voorburg Elzendreef 238 2272EE</li>
+
+    </ol>
 
 
 
